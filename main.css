@@ -1,0 +1,77 @@
+body{
+    background-color: lightgray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#main {
+    border: 2px dotted lightgray;
+    background-color:   white;
+    text-align:     center;
+    width:          500px;
+    margin-left:    auto;
+    margin-right:   auto;
+    margin-top:     200px;
+    padding:        40px;
+    font-size:      14px;
+}
+nav {
+    border: thin solid rgb(129, 129, 129);
+    background-color: white;
+    position:   absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+nav li{
+    display:    inline-block;
+    padding:    10px;
+    size:       14px;
+}
+a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+a:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: rgb(105, 105, 105);
+    transition: 1.5s;
+}
+a:hover:after{
+    text-decoration: underline;
+    width: 100%;
+}
+.tableContainer {
+    display:    table;
+    border-spacing: 10px;
+    margin-bottom: 25px;
+    margin-left:    auto;
+    margin-right: auto;
+    width: 300px;
+}
+.tableRow{
+    display:    table-row;
+}
+.tableCell{
+    display:    table-cell;
+    vertical-align: top;
+}
+.inputField{
+    border-radius:  1.5em;
+    font-size:  16px;
+    padding: 5px 10px;
+    width:  125px;
+    border: thin solid darkgray;
+    background-color: white;
+    text-align: center;
+}
+/*#submitButton {
+    background-color: rgb(13, 49, 168);
+    color: white;
+    font-size:  14px;
+    width:  100px;
+}*/
+input:hover, input:focus{
+    box-shadow: 5px 5px 5px gray;
+}
