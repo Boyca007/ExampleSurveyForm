@@ -1,2 +1,2 @@
-# ExampleSurveyForm
-This is a test to create a sample survey form
+# Habit Tracker Form
+This is an HTML and CSS only mock up of a habit tracker form.
