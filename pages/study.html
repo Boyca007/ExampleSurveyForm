@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Habit Tracker Log</title>
+        <link type="text/css" rel="stylesheet" href="../css/main.css">
+        <link type="text/css" rel="stylesheet" href="../css/study.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="water.html">Water</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="routine.html">Daily Routine</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="exercise.html">Exercise</a></li>
+                <li><a href="weight.html">Weight</a></li>
+                <li><a href="steps.html">Steps</a></li>
+                <li><a href="sleep.html">Sleep</a></li>
+                <li><a href="study.html">Study</a></li>
+            </ul>
+        </nav>
+        <div id="main">
+            <h1>Log Study Time</h1>
+            <form action="" method="">
+            <div class="tableContainer">
+                <div class="tableRow">
+                    <label for="topic" class="tableCell">
+                        What Topic Did you Study: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="radio" name="topic" value="Breakfast">General Coding<br>
+                        <input type="radio" name="topic" value="htmlCss">HTML+CSS<br>
+                        <input type="radio" name="topic" value="javascript">Javascript<br>
+                        <input type="radio" name="topic" value="python">Python<br>
+                        <input type="radio" name="topic" value="Csharp">C#<br>
+                        <input type="radio" name="topic" value="Cplus">C++<br>
+                        <input type="radio" name="topic" value="VBA">VBA<br>
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="type" class="tableCell">
+                        Study Type: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="radio" name="type" value="active">Active<br>
+                        <input type="radio" name="type" value="passive">Passive<br>
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="activity" class="tableCell">
+                        Activity: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="text" name="activity" placeholder="Head First HTML + CSS"  class="inputField">
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="lengthMin" class="tableCell">
+                        How long did you study for (minutes): 
+                    </label>
+                    <div class="tableCell">
+                        <input type="number" name="lengthMin" class="inputField">
+                    </div>
+                </div> 
+            </div> 
+            <input type="submit" id="submitButton">
+            </form>
+        </div>
+    </body>
+</html>

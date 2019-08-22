@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Habit Tracker Log</title>
+        <link type="text/css" rel="stylesheet" href="../css/main.css">
+        <link type="text/css" rel="stylesheet" href="../css/food.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="water.html">Water</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="routine.html">Daily Routine</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="exercise.html">Exercise</a></li>
+                <li><a href="weight.html">Weight</a></li>
+                <li><a href="steps.html">Steps</a></li>
+                <li><a href="sleep.html">Sleep</a></li>
+                <li><a href="study.html">Study</a></li>
+            </ul>
+        </nav>
+        <div id="main">
+            <h1>Log Food</h1>
+            <form action="" method="">
+            <div class="tableContainer">
+                <div class="tableRow">
+                    <label for="meal" class="tableCell">
+                        Meal: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="radio" name="meal" value="Breakfast">Breakfast<br>
+                        <input type="radio" name="meal" value="Lunch">Lunch<br>
+                        <input type="radio" name="meal" value="Dinner">Dinner<br>
+                        <input type="radio" name="meal" value="Dessert">Dessert<br>
+                        <input type="radio" name="meal" value="Snack/Other">Snack/Other<br>
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="Ingredients" class="tableCell">
+                        Ingredients:
+                    </label>
+                    <div class="tableCell">
+                        <fieldset>
+                            <legend>Proteins</legend>
+                            <input type="checkbox" name="Ingredients" value="Red meat">Red Meat <br>
+                            <input type="checkbox" name="Ingredients" value="White meat"> White Meat <br>
+                            <input type="checkbox" name="Ingredients" value="Fish">Fish <br>
+                            <input type="checkbox" name="Ingredients" value="Eggs">Eggs<br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Carbs</legend>
+                            <input type="checkbox" name="Ingredients" value="Veggies (Side)">Veggies (Side)<br>
+                            <input type="checkbox" name="Ingredients" value="Veggies (Base)">Veggies (Base)<br> 
+                            <input type="checkbox" name="Ingredients" value="Starchy Veggies">Starchy Veggies<br>
+                            <input type="checkbox" name="Ingredients" value="Fruit">Fruit<br>
+                            <input type="checkbox" name="Ingredients" value="Grains">Grains<br>
+                            <input type="checkbox" name="Ingredients" value="Legumes">Legumes<br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Fats</legend>
+                            <input type="checkbox" name="Ingredients" value="Oils">Oils<br>
+                            <input type="checkbox" name="Ingredients" value="Healthy Fats">Healthy Fats<br>
+                            <input type="checkbox" name="Ingredients" value="Unhealthy Fats">/Unhealthy Fats<br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Other</legend>
+                            <input type="checkbox" name="Ingredients" value="Sugar">Sugar<br>
+                            <input type="checkbox" name="Ingredients" value="Fried Foods">Fried Foods<br>
+                            <input type="checkbox" name="Ingredients" value="Alcohol">Alcohol<br>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="Portion" class="tableCell">
+                        Portion Size:
+                    </label>
+                    <div class="tableCell">
+                        <p>Small<input type="range" min="0" max="10" step="1">Huge</p>
+                    </div>
+                </div>
+                <div class="tableRow">
+                        <label for="Paleo" class="tableCell">
+                            Paleo Score:
+                        </label>
+                        <div class="tableCell">
+                           <p>0%<input type="range" min="0" max="100" step="5">100%</p>
+                        </div>
+                    </div>
+            </div> 
+            <input type="submit" id="submitButton">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Habit Tracker Log</title>
+        <link type="text/css" rel="stylesheet" href="../css/main.css">
+        <link type="text/css" rel="stylesheet" href="../css/exercise.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="water.html">Water</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="routine.html">Daily Routine</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="exercise.html">Exercise</a></li>
+                <li><a href="weight.html">Weight</a></li>
+                <li><a href="steps.html">Steps</a></li>
+                <li><a href="sleep.html">Sleep</a></li>
+                <li><a href="study.html">Study</a></li>
+            </ul>
+        </nav>
+        <div id="main">
+            <h1>Log Exercise</h1>
+            <form action="" method="">
+            <div class="tableContainer">
+                <div class="tableRow">
+                    <label for="activity" class="tableCell">
+                        What kind of exercise: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="radio" name="activity" value="Running">Running<br>
+                        <input type="radio" name="activity" value="Weights">Weights<br>
+                        <input type="radio" name="activity" value="Calisthenics">Calisthenics<br>
+                        <input type="radio" name="activity" value="Yoga">Yoga<br>
+                        <input type="radio" name="activity" value="Yard Work">Yard Work<br>
+                    </div>
+                </div>
+                <div class="tableRow">
+                    <label for="weight" class="tableCell">
+                        How much weight did you use: 
+                    </label>
+                    <div class="tableCell">
+                        <input type="number" name="weight" class="inputField">
+                    </div>
+                </div> 
+                <div class="tableRow">
+                        <label for="lengthMin" class="tableCell">
+                            How long did you exercise for (minutes): 
+                        </label>
+                        <div class="tableCell">
+                            <input type="number" name="lengthMin" class="inputField">
+                        </div>
+                    </div> 
+            </div> 
+            <input type="submit" id="submitButton">
+            </form>
+        </div>
+    </body>
+</html>

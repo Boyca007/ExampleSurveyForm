@@ -33,10 +33,10 @@ a{
 a:after {
     content: '';
     width: 0px;
-    height: 1px;
+    height: 2px;
     display: block;
     background: rgb(105, 105, 105);
-    transition: 1.5s;
+    transition: 1s;
 }
 a:hover:after{
     text-decoration: underline;
@@ -66,12 +66,17 @@ a:hover:after{
     background-color: white;
     text-align: center;
 }
-/*#submitButton {
-    background-color: rgb(13, 49, 168);
+#submitButton {
+    background-color: rgb(0, 35, 139);
     color: white;
     font-size:  14px;
     width:  100px;
-}*/
+    border-radius: 1.5em;
+    border: thin solid darkgray;
+}
+#submitButton:active {
+    background-color:   rgb(0, 88, 189);
+}
 input:hover, input:focus{
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2.5px 2.5px 5px gray;
 }
